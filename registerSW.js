@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/amway-tracker-pwa/sw.js', { scope: '/amway-tracker-pwa/' })})}
